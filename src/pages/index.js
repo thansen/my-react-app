@@ -34,10 +34,24 @@ M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1
     </div>
     <div className="Cards">
       <h2>11 courses, more coming</h2>
-      <Card 
-        title="React for Designers"
-        text="12 sections"
-        image={require('../images/wallpaper.jpg').default} />
+      <div className="CardGroup">
+        <Card 
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper.jpg').default} />
+        <Card 
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper.jpg').default} />
+        <Card 
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper.jpg').default} />
+        <Card 
+          title="React for Designers"
+          text="12 sections"
+          image={require('../images/wallpaper.jpg').default} />
+        </div>
     </div>
   </Layout>
 )

@@ -43,3 +43,44 @@
     align-self: end;
     margin: 0 0 20px 20px;
 }
+
+.CardGroup {
+    display: grid;
+    margin: 50px 40px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
+@media (max-width: 1400px) {
+    .CardGroup {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 980px) {
+    .CardGroup {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 720px) {
+    .CardGroup {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+    
+.Cards h2 {
+    margin: 50px 20px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    background: linear-gradient(104.74deg, #050A27 0%,#4A548C 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  @media (max-width: 640px) {
+    .Cards h2 {
+      font-size: 30px;
+    }
+  }
